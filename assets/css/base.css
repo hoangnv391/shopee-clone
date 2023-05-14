@@ -2,12 +2,21 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #ccc;
+    --primary-color: #ee4d2d;
 }
 
 * {
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 html {
@@ -34,6 +43,17 @@ html {
 
 .flex {
     display: flex;
+}
+
+/* Text align */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
 }
 
 /* Animation */
